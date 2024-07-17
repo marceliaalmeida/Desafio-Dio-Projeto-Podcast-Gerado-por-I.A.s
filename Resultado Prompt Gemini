@@ -1,5 +1,8 @@
 ## Resultado: 
 
+Olá, cavaleiros da Nuvem! Hoje no nosso podcast Reino das Nuvens iremos
+Desvendar os Mistérios do Elastic Load Balance da AWS.
+
 Imagine a seguinte situação: você tem um exército medieval espalhado pelo campo de batalha, lutando bravamente contra as forças inimigas. Cada soldado (instância) luta com bravura, mas a comunicação entre as linhas de frente (cavalry) e as linhas de apoio (artillery) é caótica. Mensageiros a cavalo correm de um lado para o outro, muitas vezes com ordens atrasadas ou perdidas. Isso pode levar a um combate desorganizado e ineficaz, mesmo contra um inimigo fraco.
 O Balanceamento de Carga Elástico da AWS resolve esse problema de comunicação caótico. Ele age como um quartel-general centralizado, garantindo que as ordens sejam transmitidas com clareza e rapidez entre todas as unidades do exército (camadas do aplicativo). Se uma nova companhia de arqueiros (nova instância de back-end) se juntar à batalha, o quartel-general (ELB) a integra automaticamente na rede de comunicação. E se uma unidade de espadachins (instância antiga) precisar se retirar para se reagrupar (reinicializar), o ELB redirecionará as ordens para as unidades ativas restantes, sem interromper o fluxo geral da batalha (processamento de solicitações).
 
