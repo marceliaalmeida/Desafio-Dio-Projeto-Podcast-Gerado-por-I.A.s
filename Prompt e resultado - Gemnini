@@ -1,0 +1,21 @@
+## 🧠 Prompts
+# Prompt criado no Gemnini #
+
+* Resultado: *
+
+Imagine a seguinte situação: você tem um exército medieval espalhado pelo campo de batalha, lutando bravamente contra as forças inimigas. Cada soldado (instância) luta com bravura, mas a comunicação entre as linhas de frente (cavalry) e as linhas de apoio (artillery) é caótica. Mensageiros a cavalo correm de um lado para o outro, muitas vezes com ordens atrasadas ou perdidas. Isso pode levar a um combate desorganizado e ineficaz, mesmo contra um inimigo fraco.
+O Balanceamento de Carga Elástico da AWS resolve esse problema de comunicação caótico. Ele age como um quartel-general centralizado, garantindo que as ordens sejam transmitidas com clareza e rapidez entre todas as unidades do exército (camadas do aplicativo). Se uma nova companhia de arqueiros (nova instância de back-end) se juntar à batalha, o quartel-general (ELB) a integra automaticamente na rede de comunicação. E se uma unidade de espadachins (instância antiga) precisar se retirar para se reagrupar (reinicializar), o ELB redirecionará as ordens para as unidades ativas restantes, sem interromper o fluxo geral da batalha (processamento de solicitações).
+
+E quais os benefícios que a Balanceamento de Carga Elástico da AWS proporciona?
+
+Assim como um quartel-general bem organizado leva a uma vitória decisiva, o Balanceamento de Carga Elástico oferece várias vantagens para o seu exército na Nuvem:
+
+Foco na Batalha: Seus generais (desenvolvedores) podem se concentrar em estratégias de combate (desenvolvimento de aplicativo) sem se preocupar com a comunicação entre as tropas (camadas do aplicativo).
+Escalabilidade Rápida: Reforços chegam rapidamente (novas instâncias são provisionadas) para enfrentar a investida inimiga (aumento do tráfego), garantindo que a linha de frente nunca se quebre (o aplicativo nunca fique sobrecarregado).
+Disponibilidade Contínua: Mesmo se uma unidade for dizimada (uma instância falha), o exército continua lutando (o aplicativo permanece online). O ELB redireciona as ordens para as unidades restantes, minimizando o impacto no combate (desempenho do aplicativo).
+Comunicação Eficaz: As ordens fluem com clareza e rapidez entre todas as unidades, garantindo que todas as tropas estejam cientes da situação geral da batalha (o aplicativo opera de forma coordenada entre as camadas).
+Conclusão: Um Exército Bem Organizado Conquista a Vitória!
+
+Com o Balanceamento de Carga Elástico da AWS como seu quartel-general central, seu exército na Nuvem estará sempre preparado para enfrentar qualquer inimigo, por mais poderoso que seja. O ELB garante a distribuição eficiente das tropas (solicitações), a comunicação fluida entre as unidades (camadas do aplicativo) e a disponibilidade contínua do seu exército (aplicativo), independentemente dos desafios do campo de batalha (tráfego da web).
+
+Por hoje é isso! Até a proxima batalha, cavaleiros da Nuvem!
